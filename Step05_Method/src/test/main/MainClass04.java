@@ -1,6 +1,6 @@
 package test.main;
 
-import test.mypac.Car; 
+import test.mypac.Car;
 import test.mypac.MyObject;
 import test.mypac.Radio;
 import test.mypac.Speaker;

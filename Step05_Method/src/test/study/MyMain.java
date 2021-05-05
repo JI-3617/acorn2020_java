@@ -21,13 +21,26 @@ public class MyMain {
 		o1.setNum(1000);
 		int num1=999;
 		//int type 데이터가 들어 있는 변수명으로 데이터를 전달할 수 도 있다.
-		o1.setName("이지현");
-		String myName="김도영";
+		o1.setNum(num1);
+		
+		//메소드 호출하면서 값 전달할 때 기존에 있는 값을 전달하지 말고 새로 만들어서 전달해 보세요.
+		o1.setName("김도영");
+		String myName="이지현";
 		o1.setName(myName);
 		
 		o1.useCar(new Car());
 		Car c1=new Car();
 		o1.useCar(c1);
+		
+		o1.useSome("아무게", new Car());
+		o1.useSome("이아무게", c1);
+		
+		o1.doSome(new Radio(), new Speaker());
+		
+				
+		
+		
+		
 		
 		o1.useSome("이제노", new Car());
 		o1.doSome(new Radio(), new Speaker());
