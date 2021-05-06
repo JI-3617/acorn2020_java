@@ -1,7 +1,7 @@
 package test.main;
 /*
  *  [ 기본 data type 의 참조 data type ]
- *  
+ *            ┌대문자 : class가 있다
  *  byte   : Byte
  *  short  : Short
  *  int    : Integer
