@@ -1,7 +1,5 @@
 package test.mypac;
 
-
-
 public class test extends Weapon {
 
 	@Override
