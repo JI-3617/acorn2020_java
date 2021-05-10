@@ -19,7 +19,7 @@ public class MainClass13 {
 		//Set 에 저장된 item 을 모두 불러오기?
 		
 		//Iterator 반복자 객체 얻어오기 
-		Iterator<Integer> it = nums.iterator();
+		Iterator<Integer>  it = nums.iterator();
 		// it.hasNext() 는 커서 다음에 읽어낼 데이터가 있는 지 확인해서 있으면 true  를 
 		// 리턴하고 없으면 false 를 리턴한다.
 		while(it.hasNext()) {
