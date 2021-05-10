@@ -32,6 +32,7 @@ public class MainClass09 {
 		list.add(map2);
 		list.add(map3);
 		
+		
 		// 해보세요
 		for(Map<String, Object> tmp: list) {
 			

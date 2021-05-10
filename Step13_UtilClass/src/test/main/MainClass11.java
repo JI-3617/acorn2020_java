@@ -21,6 +21,7 @@ public class MainClass11 {
 		System.out.print("검색할 단어를 입력하세요: ");
 		String inputWord=scan.nextLine(); //문자열 입력 받기 
 		//Map 객체에서 입력한 문자열로 저장된 값을 읽어와 보기
+		//└내가 쓴 inputWord가 dic안에 있는지 검색하는 것임
 		String mean=dic.get(inputWord);
 		if(mean == null) { //존재 하지 않으면 
 			System.out.println(inputWord+" 는 목록에 없습니다.");
