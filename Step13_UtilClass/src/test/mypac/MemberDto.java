@@ -18,6 +18,7 @@ public class MemberDto {
 	private String name;
 	private String addr;
 	
+	
 	//default 생성자를 정의한다.
 	public MemberDto() {}
 

@@ -30,7 +30,7 @@ public class MainClass01 {
 		//생성자
 		public MyFrame(String title) {
 			super(title);
-			//초기화 작업
+			//초기화 작업 ┌this.이 생략 
 			setBounds(200, 200, 500, 500);
 			setDefaultCloseOperation(EXIT_ON_CLOSE);
 			setVisible(true);

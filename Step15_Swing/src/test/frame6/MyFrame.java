@@ -26,7 +26,9 @@ public class MyFrame extends JFrame implements ActionListener{
 		//프레임에 버튼 추가하기 ( FlowLayout 의 영향을 받는다 )
 		add(sendBtn);
 		add(removeBtn);
-	
+		
+		//MyFrame a=this;
+		
 		//MyFrame 객체의 참조값을 전달해서 리스너 등록하기 
 		sendBtn.addActionListener(this);
 		removeBtn.addActionListener(this);
@@ -47,7 +49,7 @@ public class MyFrame extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		//JOptionPane.showMessageDialog(this, "버튼을 눌렀네?");
 		
-		//애션 command 읽어오기
+		//액션 command 읽어오기
 		String command=e.getActionCommand();
 		
 		if(command.equals("send")) {//전송 버튼을 눌렀을때 

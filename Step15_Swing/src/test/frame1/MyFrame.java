@@ -40,6 +40,7 @@ public class MyFrame extends JFrame{
 	
 	public static void main(String[] args) {
 		new MyFrame("나의 프레임");
+		//run 했을 때 , 실행시점 (시작) 만들어줌
 	}
 }
 
