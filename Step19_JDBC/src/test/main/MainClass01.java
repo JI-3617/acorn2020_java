@@ -19,7 +19,7 @@ public class MainClass01 {
 		Connection conn=null;
 		try {
 			//오라클 드라이버 로딩
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName("oracle.jdbc.driver.OracleDriver"); 
 			//접속할 DB 의 정보 @아이피주소:port번호:db이름
 			String url="jdbc:oracle:thin:@14.63.164.99:1521:xe";
 			//계정 비밀번호를 이용해서 Connection 객체의 참조값 얻어오기
